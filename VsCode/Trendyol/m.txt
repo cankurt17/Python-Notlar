@@ -1,0 +1,19 @@
+  items = MainItem()
+        # Marka         :  response.css("span.product-brand::text").get()
+        # İsim          :  response.css("span.product-name::text").get()
+        # Fiyat         :  response.css("span.prc-slg::text").get()
+        # Degerlendirme :  response.css("div.pr-rnr-sm-p-s span::text").getall()[0].split()[0]
+        # Puan          :  response.css("div.pr-rnr-sm-p span::text").get()
+        # Yorum         :  response.css("div.pr-rnr-sm-p-s span::text").getall()[1].split()[0]
+        
+        print("***********************************************************************")  
+         
+        marka = response.css("span.product-brand::text").get()
+        isim = response.css("span.product-name::text").get()
+        fiyat = response.css("span.prc-slg::text").get()
+        degerlendirme = response.css("div.pr-rnr-sm-p-s span::text").getall()[0].split()[0]
+        puan = response.css("div.pr-rnr-sm-p span::text").get()
+        yorum = response.css("div.pr-rnr-sm-p-s span::text").getall() 
+
+
+        

@@ -1,0 +1,24 @@
+Muslera,Galatasaray
+Altay,Fenerbahçe
+Gökhan,Fenerbahçe
+Falcao,Galatasaray
+Dorukhan,Beşiktaş
+Belhanda,Galatasaray
+Aboubakar,Beşiktaş
+Feghouli,Galatasaray
+Serdar,Fenerbahçe
+Emre Kılınç,Galatasaray
+Sosa,Fenerbahçe
+Babel,Galatasaray
+Arda,Galatasaray
+Larin,Beşiktaş 
+Oğuzhan,Beşiktaş
+Diagne,Galatasaray
+Caner,Fenerbahçe
+Etobo,Galatasaray
+Samatta,Fenerbahçe
+Gustavo,Fenerbahçe
+Atiba,Beşiktaş
+Ozan,Fenerbahçe
+Marcao,Galatasaray
+Vida,Beşiktaş

@@ -1,0 +1,3 @@
+title=Cankurt
+author=cankurt
+orientation=portrait

@@ -1,0 +1,4 @@
+cd OneDrive\Masaüstü\Python\PyCharm Ders\Kodlama Egzersizleri\QtDesigner
+
+python -m PyQt5.uic.pyuic -x untitled.ui -o deneme.py
+

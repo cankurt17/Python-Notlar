@@ -1,0 +1,17 @@
+ 
+
+
+{% extends "layout.html" %}
+
+{% block body %}  
+   {% from "include/formhelpers.html" import render_field %} 
+    <div class="jumbotron text-center">
+    <h3>Makale Güncelle</h3>
+    <hr>
+        <form method="post"> 
+            {{render_field(form.tittle)}} 
+            {{render_field(form.content,class="form-control")}} 
+            <button type="submit" class="btn btn-primary">Güncelle</button> 
+        </form>
+    </div>
+{% endblock body %} 

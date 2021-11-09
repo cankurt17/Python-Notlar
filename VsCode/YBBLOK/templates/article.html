@@ -1,0 +1,22 @@
+
+
+
+{% extends "layout.html" %}
+
+{% block body %}
+    
+    {% if article %}
+        <div class="jumbotron text-center" > 
+            <h1>{{article.tittle}}</h1>
+            <hr>
+            <h6>Yazar: {{article.author}}</h6>
+            <hr>
+            <h6>Tarih: {{article.create_date}}</h6>
+            <hr>
+            {{article.content|safe}}
+        </div> 
+    {% else %}
+        <div class="alert alert-warning">Böyle bir makale bulunmuyor.</div>
+    {% endif %}
+        
+{% endblock body %}
